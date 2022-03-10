@@ -23,7 +23,7 @@ def clear_insert():
 def delete():
     global counter
     if len(task_list) == 0:
-        messagebox.showerror("Delete Status","The Taskbox is empty")
+        messagebox.showerror("Delete Status","No available Taskbox present")
         return
     number = taskNumberField.get(1.0,END)
     if number == "\n":
